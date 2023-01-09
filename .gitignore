@@ -1,0 +1,12 @@
+.env
+node_modules
+dist
+types
+
+# misc
+.DS_Store
+
+# coverage
+coverage
+
+.idea
