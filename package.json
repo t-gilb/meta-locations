@@ -11,6 +11,9 @@
     "clean": "rimraf dist types",
     "add-build": "git add dist types"
   },
+  "engines": {
+    "node": "14.x"
+  },
   "pre-commit": [
     "clean",
     "build",
