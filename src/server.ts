@@ -15,6 +15,10 @@ app.use(cors());
 // define routes if needed
 // app.use("/", routes);
 
+app.get('/', (req, res) => {
+  res.send('Hey this is my API running 🥳')
+})
+
 // error handling
 app.use((req, res, next) => {
   const error = new Error("not found");
